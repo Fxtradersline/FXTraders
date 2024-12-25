@@ -134,11 +134,11 @@
 
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
-            <nav class=" navbar  navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="#" class="navbar-brand  ms-auto py-0">
-                    <h1 class="text-primary"><img src="{% static 'fx1.png' %}" alt="Logo">FX TRADE</h1>
+            <nav class="navbar  navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="#" class="navbar-brand  ms-auto py-0 align-right">
+                    <h1 class="text-primary align-right"><img src="{% static 'fx1.png' %}" class="align-right"alt="Logo">FX TRADE</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
-               
+               </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
@@ -163,7 +163,7 @@
                         </div> {% endcomment %}
                         <a href="#contact" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="/assests/Fx Trader.apk"
+                    <a href="{% static 'FxTrader.apk' %}"
                                 class=" fw-bold align-items-center gap-1"> Download App <i
                                     class="ti ti-arrow-down fw-semibold fs-six-up"></i></a>
                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
@@ -185,7 +185,7 @@
                                         <p class="mb-5 fs-5"></p>
                                         <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                             <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i>Let’s See how we did it</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="/assests/Fx Trader.apk">Download App</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="{% static 'FxTrader.apk' %}">Download App</a>
                                         </div>
                                                         {% comment %} <div class="d-flex align-items-center justify-content-center justify-content-md-end">
                                                             <h2 class="text-white me-2">Follow Us:</h2>
@@ -214,7 +214,7 @@
                                         
                                         <div class="d-flex justify-content-center flex-shrink-0 mb-4">
                                             <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i>Let’s See how we did it</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href=""/assests/Fx Trader.apk"">Download App</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="{% static 'FxTrader.apk' %}">Download App</a>
                                         </div>
                                         {% comment %} <div class="d-flex align-items-center justify-content-center">
                                             <h2 class="text-white me-2">Follow Us:</h2>
@@ -245,14 +245,14 @@
                         <div>
                             <h4 class="text-primary">About Us</h4>
                             <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                            <p class="mb-4"><p class="mb-4">FX TRADE FX OXFORD is an online foreign exchange market trading
+                            <p class="mb-4"><p class="mb-4">FxTrader is an online foreign exchange market trading
                                 platform for retail and small institutional traders including
                                 auto trading platform services. We offer auto trading in up
                                 to 130 currency pairs with settlement in the client's base
                                 currency. The company also offered streaming prices
                                 along with one-click auto trading and order management
                                 tools.
-                                FX TRADE FX OXFORD is providing the world's best auto trading
+                                FxTrader is providing the world's best auto trading
                                 platform service since 2012 at the lowest brokerage and
                                 additional profit. We are one of the best auto trading
                                 platforms which are available 24X7 and give you great
@@ -560,16 +560,16 @@
                     <h1 class="display-5 mb-4">WITHDRAWAL PROCESS
                         AND CHARGES...!!!</h1>
                     <p class="mb-0">
-                        Clients are always encouraged by FX Oxford to withdraw their profits and investments whenever
+                        Clients are always encouraged by  FxTrader to withdraw their profits and investments whenever
                         they require. They have the freedom to withdraw funds at any time they want.
-                        FX Oxford aims to process the withdrawals in a maximum of 4 hours and in most cases
+                        FxTrader aims to process the withdrawals in a maximum of 4 hours and in most cases
                         clients receive their funds earlier but never later than 6 hours, Client can apply their
                         withdrawals by clicking up the withdrawal request by logging into their respective account.
-                        Since the AML policy is strictly followed by FX Oxford we never process withdrawals to 3rd party
+                        Since the AML policy is strictly followed by  FxTrader we never process withdrawals to 3rd party
                         accounts. Funds can only be transferred to the account under clients account.
-                        KYC documents must be submitted by the client and approved by FX Oxford compliance team in
+                        KYC documents must be submitted by the client and approved by  FxTrader compliance team in
                         order to process the withdrawals.
-                        Clients can also withdraw the funds to their Neteller or Skrill accounts. FX Oxford will never
+                        Clients can also withdraw the funds to their Neteller or Skrill accounts.  FxTrader will never
                         claim any charges when processing withdrawals, Banks may have conversion charges/other
                         charges based on their policies.</p>
                 </div>
@@ -836,7 +836,7 @@
                  <p class="fs-six-up fw_500 mt-5">Try our super easy portal for free</p>
              </div></marquee>
              <center> <div class="col-sm-4 text-sm-end">
-               <h2> <a href="/assests/Fx Trader.apk"
+               <h2> <a href="{% static 'FxTrader.apk' %}"
                      class="cmn-btn secondary-alt ms-auto fs-five nb4-xxl-bg gap-2 align-items-center  py-2 px-4 py-lg-3 px-lg-5">Download
                      Now <i class="ti ti-arrow-right fs-four"></i></a></h2>
              </div></center>
@@ -896,7 +896,7 @@
                                 </div>
                             </div>
                             <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
-                                <h4 class="text-primary">Send Your Message</h4>
+                                <h4 class="text-primary">Sign up</h4>
                                 
                                 <form>
                                     <div class="row g-4">
@@ -935,7 +935,7 @@
 
                                         </div>
                                         <center><div class="col-12">
-                                            <button ><a class="btn btn-primary w-100 py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeUdUoRcaUtM56poEnagFR-dKHjPGyuz1qNUAFEBmtr5kRxmQ/viewform?usp=header">Send Message</a></button>
+                                            <button ><a class="btn btn-primary w-100 py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeUdUoRcaUtM56poEnagFR-dKHjPGyuz1qNUAFEBmtr5kRxmQ/viewform?usp=header">Sign up</a></button>
                                         </div></center>
                                     </div>
                                 </form>
